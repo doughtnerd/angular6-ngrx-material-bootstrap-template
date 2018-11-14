@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "Angular-Facades"
+  "defaultProject": "Angular-Facades",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
