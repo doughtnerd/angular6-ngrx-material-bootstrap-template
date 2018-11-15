@@ -1,6 +1,17 @@
-# AngularFacades
+# angular6-ngrx-material-bootstrap-template
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.7.
+
+This template includes
+ - NgRx Core
+ - NgRx Store
+ - NgRx Effects
+ - NgRx Schematics (and is integrated with the angular cli)
+ - Jasmine Marbles (Observable testing)
+ - Angular Material
+ - Twitter Bootstrap (with angular material/bootstrap conflicts resolved)
+ - Material Design Icons
+
 
 ## Development server
 

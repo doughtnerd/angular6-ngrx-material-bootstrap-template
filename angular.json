@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Angular-Facades": {
+    "angular6-ngrx-material-bootstrap-template": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Angular-Facades",
+            "outputPath": "dist/angular6-ngrx-material-bootstrap-template",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Angular-Facades:build"
+            "browserTarget": "angular6-ngrx-material-bootstrap-template:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Angular-Facades:build:production"
+              "browserTarget": "angular6-ngrx-material-bootstrap-template:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Angular-Facades:build"
+            "browserTarget": "angular6-ngrx-material-bootstrap-template:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "Angular-Facades-e2e": {
+    "angular6-ngrx-material-bootstrap-template-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Angular-Facades:serve"
+            "devServerTarget": "angular6-ngrx-material-bootstrap-template:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Angular-Facades:serve:production"
+              "devServerTarget": "angular6-ngrx-material-bootstrap-template:serve:production"
             }
           }
         },
@@ -123,7 +123,7 @@
       }
     }
   },
-  "defaultProject": "Angular-Facades",
+  "defaultProject": "angular6-ngrx-material-bootstrap-template",
   "cli": {
     "defaultCollection": "@ngrx/schematics"
   }
