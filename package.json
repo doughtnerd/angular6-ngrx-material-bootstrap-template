@@ -52,6 +52,7 @@
     "jest": "~24.1.0",
     "jest-marbles": "~2.2.0",
     "jest-preset-angular": "~6.0.2",
+    "jest-watch-typeahead": "~0.2.1",
     "protractor": "~5.4.0",
     "ts-jest": "~23.10.5",
     "ts-node": "~7.0.0",

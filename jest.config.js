@@ -14,5 +14,9 @@ module.exports = {
     "^.+\\.(ts|html)$":
       "<rootDir>/node_modules/jest-preset-angular/preprocessor.js",
     "^.+\\.(ts|js)$": "babel-jest"
-  }
+  },
+  watchPlugins: [
+    "jest-watch-typeahead/filename",
+    "jest-watch-typeahead/testname"
+  ]
 };
